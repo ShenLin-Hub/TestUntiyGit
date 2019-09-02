@@ -65,7 +65,6 @@ public class AndroidEncrypt : MonoBehaviour {
         return true;
     }
 
-    // 解密
     static string Decode() {
         byte[] buffer = IOUtil.GetBuffer(m_Path);
         //Debug.Log(buffer.Length);
